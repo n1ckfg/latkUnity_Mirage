@@ -9,6 +9,7 @@ public class WebcamPhoto : MonoBehaviour {
 	public string filePath = "";
     public bool isShowing = false;
     public bool runOnStart = false;
+	public int cameraIndex = 0;
 
 	[HideInInspector] public WebCamTexture webCamTexture;
 	[HideInInspector] public Texture2D photo;
@@ -22,14 +23,22 @@ public class WebcamPhoto : MonoBehaviour {
 		}
 	}
 
+	string camNameFromIndex(int index) {
+		WebCamDevice[] devices = WebCamTexture.devices;
+		return devices[index].name;
+	}
+
 	void Start() {
-		webCamTexture = new WebCamTexture();
+		webCamTexture = new WebCamTexture(camNameFromIndex(cameraIndex));
 
         if (SystemInfo.deviceModel == "LGE Nexus 5X") transform.Rotate(180f, 180f, 0f);
 
 		if (ren != null) {
 			ren.material.mainTexture = webCamTexture;
-			if (runOnStart) webCamTexture.Play();
+			if (runOnStart) {
+				webCamTexture.Play();
+				isShowing = true;
+			}
 		}
 	}
 
