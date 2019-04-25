@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DraggableMirage : MonoBehaviour {
 
-	public GvrTrackedController ctl;
+	public Gvr_NewController ctl;
 	public Transform minBound;
 	public bool fixX = false;
 	public bool fixY = false;

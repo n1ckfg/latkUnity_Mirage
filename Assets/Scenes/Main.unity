@@ -171,6 +171,39 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 76323789}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &76323791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76323790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3b9bef7b4363b44a3137f5f52f85eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerPressed: 0
+  padPressed: 0
+  gripped: 0
+  menuPressed: 0
+  triggerDown: 0
+  padDown: 0
+  gripDown: 0
+  menuDown: 0
+  triggerUp: 0
+  padUp: 0
+  gripUp: 0
+  menuUp: 0
+  padDirUp: 0
+  padDirDown: 0
+  padDirLeft: 0
+  padDirRight: 0
+  padDirCenter: 0
+  touchpad: {x: 0, y: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  endPos: {x: 0, y: 0, z: 0}
+  triggerVal: 0
 --- !u!1001 &318625367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268,6 +301,39 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 368821659}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &368821661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368821660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3b9bef7b4363b44a3137f5f52f85eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerPressed: 0
+  padPressed: 0
+  gripped: 0
+  menuPressed: 0
+  triggerDown: 0
+  padDown: 0
+  gripDown: 0
+  menuDown: 0
+  triggerUp: 0
+  padUp: 0
+  gripUp: 0
+  menuUp: 0
+  padDirUp: 0
+  padDirDown: 0
+  padDirLeft: 0
+  padDirRight: 0
+  padDirCenter: 0
+  touchpad: {x: 0, y: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  endPos: {x: 0, y: 0, z: 0}
+  triggerVal: 0
 --- !u!1 &422926790
 GameObject:
   m_ObjectHideFlags: 0

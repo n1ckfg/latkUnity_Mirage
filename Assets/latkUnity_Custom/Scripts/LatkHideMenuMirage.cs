@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LatkHideMenuMirage : MonoBehaviour {
 
-	public GvrTrackedController[] ctl;
+	public Gvr_NewController[] ctl;
 	public Renderer[] ren;
 
 	private bool firstRun = true;
