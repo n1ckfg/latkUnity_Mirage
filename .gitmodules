@@ -7,3 +7,6 @@
 [submodule "Assets/latkxNetwork"]
 	path = Assets/latkxNetwork
 	url = https://github.com/n1ckfg/latkxNetwork
+[submodule "Assets/latkxGvr"]
+	path = Assets/latkxGvr
+	url = https://github.com/n1ckfg/latkxGvr
