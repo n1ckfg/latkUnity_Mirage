@@ -10,9 +10,6 @@
 [submodule "Assets/latkxGvr"]
 	path = Assets/latkxGvr
 	url = https://github.com/n1ckfg/latkxGvr
-[submodule "Assets/latkxWacom"]
-	path = Assets/latkxWacom
-	url = https://github.com/n1ckfg/latkxWacom
 [submodule "Assets/latkxGDrive"]
 	path = Assets/latkxGDrive
 	url = https://github.com/n1ckfg/latkxGDrive
