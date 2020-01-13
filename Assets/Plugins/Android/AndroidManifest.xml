@@ -5,23 +5,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="26" />
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="26" />
 
-    <supports-screens
-        android:anyDensity="true"
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
-
-    <uses-feature android:glEsVersion="0x00020000" />
-    <uses-feature
-        android:name="android.hardware.vr.headtracking"
-        android:version="1" />
-    <uses-feature android:name="android.software.vr.mode" />
-    <uses-feature android:name="android.hardware.vr.high_performance" />
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -33,24 +19,16 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen.multitouch"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen.multitouch.distinct"
-        android:required="false" />
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" />
+    <uses-feature android:name="android.software.vr.mode" />
+    <uses-feature android:name="android.hardware.vr.high_performance" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -71,35 +49,20 @@
             android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
                 <category android:name="com.google.intent.category.DAYDREAM" />
             </intent-filter>
 
-            <meta-data
-                android:name="unityplayer.UnityActivity"
-                android:value="true" />
-            <meta-data
-                android:name="com.google.android.vr.icon"
-                android:resource="@drawable/vr_icon_front" />
-            <meta-data
-                android:name="com.google.android.vr.icon_background"
-                android:resource="@drawable/vr_icon_back" />
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+            <meta-data android:name="com.google.android.vr.icon" android:resource="@drawable/vr_icon_front" />
+            <meta-data android:name="com.google.android.vr.icon_background" android:resource="@drawable/vr_icon_back" />
         </activity>
 
-        <meta-data
-            android:name="unityplayer.SkipPermissionsDialog"
-            android:value="true" />
-        <meta-data
-            android:name="unity.build-id"
-            android:value="540e58f1-53d8-4065-b5cf-5c27eb930b66" />
-        <meta-data
-            android:name="unity.splash-mode"
-            android:value="0" />
-        <meta-data
-            android:name="unity.splash-enable"
-            android:value="False" />
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />
+        <meta-data android:name="unity.build-id" android:value="540e58f1-53d8-4065-b5cf-5c27eb930b66" />
+        <meta-data android:name="unity.splash-mode" android:value="0" />
+        <meta-data android:name="unity.splash-enable" android:value="False" />
 
         <activity
             android:name="com.elringus.unitygoogledriveandroid.AuthorizationActivity"
@@ -108,10 +71,8 @@
         <activity android:name="net.openid.appauth.RedirectUriReceiverActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data android:scheme="com.foxgieg.latk" />
             </intent-filter>
         </activity> <!-- For enableVrMode use the value vs. the string so Unity can build it. -->
