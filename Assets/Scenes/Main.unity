@@ -894,6 +894,10 @@ PrefabInstance:
       propertyPath: mainColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
+      propertyPath: scaleRef
+      value: 
+      objectReference: {fileID: 1176556522}
     - target: {fileID: 114160889968000614, guid: bd6b520ae512fe14284192c59b70f0f3,
         type: 3}
       propertyPath: m_Enabled
