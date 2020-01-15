@@ -732,6 +732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WacomPreview
       objectReference: {fileID: 0}
+    - target: {fileID: 1776317840509294, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4617741611975396, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -878,6 +882,18 @@ PrefabInstance:
       propertyPath: brushMat.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 20f8c860059c3cf4c80536b089551ae8, type: 2}
+    - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
+      propertyPath: mainColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
+      propertyPath: mainColor.g
+      value: 0.5773492
+      objectReference: {fileID: 0}
+    - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
+      propertyPath: mainColor.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114160889968000614, guid: bd6b520ae512fe14284192c59b70f0f3,
         type: 3}
       propertyPath: m_Enabled
